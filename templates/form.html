@@ -1,0 +1,12 @@
+<!DOCTYPE>
+<html>
+    <head></head>
+<body>
+    <form method="POST" action='submit'>
+        {% csrf_token %}
+        <label for="LongUrl">Enter the Url</label>
+        <input type="text" id="longurl" name="longurl"><br><br>
+        <input type="submit" value="Submit">
+      </form>
+</body>
+</html>
